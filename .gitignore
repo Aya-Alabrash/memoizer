@@ -1,2 +1,5 @@
 # Misc
 node_modules
+
+# Outputs
+coverage/
