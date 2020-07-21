@@ -1,8 +1,9 @@
 module.exports = function (config) {
   config.set({
+    basePath: '',
     frameworks: ["jasmine", "karma-typescript"],
     files: [
-      "src/**/*.spec.ts"
+      "src/**/*.ts"
     ],
     preprocessors: {
       "**/*.ts": "karma-typescript"
@@ -11,6 +12,10 @@ module.exports = function (config) {
     browsers: ["ChromeHeadless"],
     singleRun: true,
     karmaTypescriptConfig: {
+      compilerOptions: {
+        module: "commonjs"
+      },
+      tsconfig: "./tsconfig.json",
       reports:
       {
         "cobertura": {
