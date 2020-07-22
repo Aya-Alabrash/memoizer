@@ -1,7 +1,9 @@
 # Memoizer
 
 This repository is a basic Memoizer implementation.
+
 Memoization is best technique to save on memory or CPU cycles when we deal with repeated operations.
+
 Basically, if the function is called with the same inputs, Memoizer helps directly return the result in the cache.
 
 Here, i use a popular npm package [`memoizee`](https://www.npmjs.com/package/memoizee).
@@ -29,4 +31,10 @@ class MyClass {
 }
 ...
 
+```
+
+## Test
+
+```bash
+npm run test
 ```
