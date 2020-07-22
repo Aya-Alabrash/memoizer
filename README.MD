@@ -5,3 +5,20 @@ Basically, if the function is called with the same inputs, Memoizer helps direct
 
 Here, i use a popular npm package [`memoizee`](https://www.npmjs.com/package/memoizee).
 
+## Example
+
+```ts
+import { memoize } from "./memoize";
+...
+class MyClass {
+  @memoize()
+  myFunction(a = undefined, b = undefined, c = undefined) {
+    var result = a + " " + b + " " + c;
+    this.helloFunc();
+    return result;
+  }
+  helloFunc() {}
+}
+...
+
+```

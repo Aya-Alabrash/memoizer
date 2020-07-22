@@ -2,8 +2,8 @@
   "name": "@backbase/memoize",
   "version": "1.0.0",
   "description": "An npm project to create a memoizer",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "ts-node --project tsconfig.json ./src/index.ts",
     "build": "tsc",
@@ -11,7 +11,8 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint --ext .ts src/"
   },
-  "author": "",
+  "keywords": ["Memoizer"],
+  "author": "Aya Alabrash",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.0.23",
