@@ -11,8 +11,8 @@ Here, i use a popular npm package [`memoizee`](https://www.npmjs.com/package/mem
 ## Install
 
 ```bash
-npm install @aya/memoize
-yarn add @aya/memoize
+npm i @aya_ab/memoize
+yarn add @aya_ab/memoize
 ```
 
 ## Example
