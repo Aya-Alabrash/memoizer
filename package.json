@@ -1,5 +1,5 @@
 {
-  "name": "@backbase/memoize",
+  "name": "@aya/memoize",
   "version": "1.0.0",
   "description": "An npm project to create a memoizer",
   "main": "dist/index.js",
